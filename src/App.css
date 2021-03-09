@@ -1,38 +1,271 @@
-.App {
-  text-align: center;
+@import '~antd/dist/antd.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@400;700&display=swap');
+@font-face {
+  font-family: 'Baloo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./Baloo-Regular.ttf');  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.site-layout-background {
+  background: #FFFFFF;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo {
+  height: 32px;
+  margin: 16px;
+  font-family: Baloo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 35px;
+  color: #FFFFFF;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.sider {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  background-color: #212121;
+}
+
+.header {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: #758294;
+}
+
+.avatar {
+  border: 1px solid #0F66EA;
+  box-sizing: border-box;
+}
+
+.balance {
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+color: #4E9616;
+}
+
+.balanceMobile {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+  background: #4E9616;
+  border-radius: 5px;
+  padding: 1px 5px 1px 5px;
+  margin-right: 8px;
+  position: relative;
+}
+
+.mobButtonActive {
+  background: #2F2F37;
+  border-radius: 5px 5px 0 0;
+  padding: 10px;
+  margin-right: 14px;
+}
+
+.mobButtonDisable {
+  border-radius: 5px 5px 0 0;
+  padding: 10px;
+  margin-right: 14px;
+}
+
+.dividerMob {
+  background: #3C3C46;
+}
+
+.menu {
+  height: 32px;
+  margin: 16px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 35px;
+  color: #DDDDDD;
+}
+
+.site-layout-sub-header-background {
+  background: linear-gradient(90.74deg, #E3EEFF -37.48%, #F8FBFF 108.93%);
+}
+
+#components-layout-demo-custom-trigger .trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+  background-color: #212121;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #585b5b;
+}
+
+.ant-menu-inline {
+  border-right: none;
+}
+
+
+.myFinance {
+  width: 340px;
+  height: 330px;
+  margin-right: 14px;
+  background: #FFFFFF;
+  border: none;
+  box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.myFinanceMob {
+  width: 340px;
+  height: 330px;
+  margin-right: 14px;
+  background: #2F2F37;
+  border: none;
+  box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.rows {
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.checkboxActive {
+  margin-left: 10px;
+  font-size: 16px;
+  color: #005BE4;
+}
+
+.checkboxDisable {
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.checkboxDisableMob {
+  margin-left: 10px;
+  font-size: 16px;
+  color: white;
+}
+
+.iconFinancesChekbox {
+  transform: translateY(-3px);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.iconApp {
+  transform: translateY(-3px);
+}
+
+
+.ant-tooltip-inner {
+  border-radius: 3px;
+  background-color: #EAF2FF;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #3B4554;
+}
+
+.imgCardBlur {
+  filter: blur(4px);
+  width: 290px;
+  height: 300px;
+}
+.imgCard {
+  width: 290px;
+  height: 300px;
+}
+.goodsTitle {
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+color: #2C2C2C;
+}
+.ant-card-body {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+}
+.buttonPartner {
+  background: #4C7EFF;
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+  padding: 5px;
+}
+
+.buttonPartner::before {
+  background: #4C7EFF;
+}
+
+.goodsText {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #616977;
+}
+
+.goodsPrice {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 15px;
+  color: #005BE4;
+}
+
+.goodsRent {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 15px;
+  color: #4E9616;
+}
+.buyButton {
+  background: #F0F3F8;
+  border-radius: 3px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  color: #4C7EFF;
+  padding: 5px;
 }
