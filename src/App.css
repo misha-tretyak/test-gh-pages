@@ -125,6 +125,7 @@ color: #4E9616;
 
 
 .myFinance {
+  z-index: 1000;
   width: 340px;
   height: 330px;
   margin-right: 14px;
@@ -138,6 +139,7 @@ color: #4E9616;
 }
 
 .myFinanceMob {
+  z-index: 1000;
   width: 340px;
   height: 330px;
   margin-right: 14px;
